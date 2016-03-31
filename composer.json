@@ -8,6 +8,10 @@
         }
     ],
     "require": {
-        "dominikveils/coordinates": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JessicaDigital\\TflCycles\\": "src"
+        }
     }
 }
