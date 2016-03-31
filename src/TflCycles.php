@@ -101,6 +101,14 @@ class TflCycles {
     }
     
     /**
+     * Save data to JSON file
+     * @param string $filename Destination filename relative to current script
+     */
+    public function save($filename) {
+        file_put_contents($filename, json_encode($this->find()));
+    }
+    
+    /**
      * Set the max distance for found cycle hire stations
      * @param integer $distance Distance in metres
      */
