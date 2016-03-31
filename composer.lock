@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a8488bcb5ab0dc1aca1f8a8e7151cef5",
+    "content-hash": "623f19f48201cf4239cecb37cc498b9b",
+    "packages": [
+        {
+            "name": "dominikveils/coordinates",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dominikveils/coordinates.git",
+                "reference": "b05202fa3bcc56d2f9fb384058ce36d150afb1e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dominikveils/coordinates/zipball/b05202fa3bcc56d2f9fb384058ce36d150afb1e4",
+                "reference": "b05202fa3bcc56d2f9fb384058ce36d150afb1e4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DominikVeils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dominik Veils",
+                    "email": "dominikveils@gmail.com"
+                }
+            ],
+            "description": "Simple Geo coordinates helpers",
+            "keywords": [
+                "coordinates",
+                "distance",
+                "geo",
+                "geo coordinates"
+            ],
+            "time": "2016-03-29 09:59:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

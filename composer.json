@@ -1,0 +1,13 @@
+{
+    "name": "jessicadigital/tflcycles",
+    "description": "A module to fetch Santander Cycle availability within a distance of specified locations.",
+    "authors": [
+        {
+            "name": "Jessica Digital",
+            "email": "jessica@jessica.digital"
+        }
+    ],
+    "require": {
+        "dominikveils/coordinates": "^0.1.0"
+    }
+}
