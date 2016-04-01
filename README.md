@@ -1,5 +1,5 @@
 # jessicadigital/tflcycles
-A module to fetch Santander Cycle hire locations within a distance of specified locations.
+A module to fetch Santander Cycle hire locations within a distance of specified locations. [Read more on the blog.](http://jessica.digital/tfl-cycle-points-php-package/)
 
 # Installation
 
