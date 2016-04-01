@@ -27,6 +27,27 @@ for 2km. This will find all bike hire locations within 2km of *any* of the speci
 
 Now, perform a search. Use the ```find()``` method to return an array of stations, or ```save($filename)``` to save this array directly to a file.
 
+# Example
+
+This example will fetch all cycle hire stations within 500m of Euston and Waterloo rail stations and save to a file called ```cycles.json```:
+
+```
+// Create object
+$tflcycles = new \JessicaDigital\TflCycles\TflCycles();
+
+// Add location - Euston Station
+$tflcycles->addLocation(51.5290371, -0.1368696);
+
+// Add location - Waterloo Station
+$tflcycles->addLocation(51.5031686, -0.1144991);
+
+// Change distance to 500m
+$tflcycles->setDistance(500);
+
+// Save the found locations to a file called cycles.json
+$tflcycles->save('cycles.json');
+```
+
 # Usage
 
 This package uses the [TfL Santander Cycle API](https://api.tfl.gov.uk/). Please abide by their Terms and Conditions.
